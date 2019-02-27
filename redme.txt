@@ -1,3 +1,12 @@
-git is a version test test 
-git is a free software
-this is second changed
+git config --global user.name "zhouchangxin"
+git config --global user.email "zhouchangxinlife@outlook.com"
+git init
+git add xxx
+git commit -m "xxxx"
+git status
+git differ xxx
+git log
+git log --pretty=oneline     只显示一行的日志
+git reset --hard HEAD^       退回上一个版本
+git reset --hard xxx         退回知道版本号的某个版本
+git reflog                   查看所有的版本日志
