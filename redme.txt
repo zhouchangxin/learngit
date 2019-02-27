@@ -43,3 +43,6 @@ git stash list               查看工作现场
 git stash apply              恢复工作现场
 git stash drop               删除保存的工作现场
 git stash pop                恢复的同时把stash的内容也删了
+
+git branch -D <xxx>
+强行删除分支，xxx分支名，最后合并时强行删除分支，在dev上新建featrue分支时必须stash否则dev上修改的内容则随feature分支删除而删除
