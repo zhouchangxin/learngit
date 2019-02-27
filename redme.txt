@@ -35,3 +35,11 @@ git branch -d dev            删除分支
 git log --graph --pretty=oneline --abbrev-commit  查看合并情况
 
 git merge --no-ff -m xxx   禁用Fast forward,xxx表示分支名，之前用的“”
+
+
+Bug 分支有关命令
+git stash                    存储工作现场
+git stash list               查看工作现场
+git stash apply              恢复工作现场
+git stash drop               删除保存的工作现场
+git stash pop                恢复的同时把stash的内容也删了
