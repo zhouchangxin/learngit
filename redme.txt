@@ -28,4 +28,4 @@ branch
 git chechout -b dev
 git branch
 git chechout master /dev
-git merge dev                把dev分支合并到master上
+git merge dev                把dev分支合并到master上 注意：该命令在master上执行
