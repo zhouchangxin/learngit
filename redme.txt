@@ -16,3 +16,6 @@ git reset HEAD xxx           add后可以用该命令回到最新的版本然后
 rm xxx
 git rm                       删除版本管控的文件
 git chechout                 返回版本误删的文件
+
+git remote add origin https://github.com/zhouchangxin/learngit.git
+git push -u origin master    把本地仓储推到远程库上
