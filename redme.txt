@@ -27,3 +27,4 @@ git clone http://github.com/zhouchangxin/gitskills.git   从远程库上面clone
 branch
 git chechout -b dev
 git branch
+git chechout master
