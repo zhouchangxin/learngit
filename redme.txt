@@ -33,3 +33,5 @@ git branch -d dev            删除分支
 
 解决冲突合并冲突时手动解决
 git log --graph --pretty=oneline --abbrev-commit  查看合并情况
+
+git merge --no-ff -m "xxx"   禁用Fast forward
