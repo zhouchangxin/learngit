@@ -27,4 +27,5 @@ git clone http://github.com/zhouchangxin/gitskills.git   从远程库上面clone
 branch
 git chechout -b dev
 git branch
-git chechout master
+git chechout master /dev
+git merge dev                把dev分支合并到master上
