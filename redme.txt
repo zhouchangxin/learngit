@@ -11,3 +11,4 @@ git reset --hard HEAD^       退回上一个版本
 git reset --hard xxx         退回知道版本号的某个版本
 git reflog                   查看所有的版本日志
 git chechout -- xxx          删除修改区修改 注意：--后面有空格
+git reset HEAD xxx           add后可以用该命令回到最新的版本然后用chechout
