@@ -54,3 +54,4 @@ git branch -D <xxx>
 git config --local user.name "xxx"
 git config --local user.email "xxx"
 git config --local core.editor vim
+git config --global credential.helper store
