@@ -22,7 +22,7 @@ git remote add origin https://github.com/zhouchangxin/learngit.git
 git remote rm origin
 git remote add origin git@github.com:zhouchangxin/learngit.git
 git push -u origin master    把本地仓储推到远程库上
-
+git remote add origin https://github.com/zhouchangxin/SnapUpload.git
 
 git clone http://github.com/zhouchangxin/gitskills.git   从远程库上面clone到本地
 
