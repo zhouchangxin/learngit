@@ -1,0 +1,6 @@
+d = {'spam':1, 'haha':2, 'egg':3}
+list(d.value())
+list(d.key())
+list(d.item())
+	[('haha', 2), ('spam', 1), ('egg', 3)]
+
